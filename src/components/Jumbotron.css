@@ -1,9 +1,11 @@
 .jumbo{
-    height:100vh;
+    height:auto;
     width:100vw;
     max-width:100%;
+    min-height: 100vh;
     background:rgba(255, 255, 255);
     background:rgb(172, 182, 166);
+    
 }
 
 .title-heading{
@@ -22,6 +24,7 @@
     color:rgb(53, 50, 50);
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
+
 }
 
 .underline{
@@ -45,7 +48,7 @@
 
 @media(min-width:880px){
     .title-heading{
-        padding:180px 0 0 0;
+        padding:200px 0 0 0;
         border:none;
         font-size: 6.5rem;
     }
@@ -59,7 +62,7 @@
 @media(min-width:1150px){
     .title-heading{
         font-size: 8rem;
-        padding:180px 0 0 0;
+        padding:220px 0 0 0;
     }
     .title-heading-subtitle{
         font-size: 3.5rem;

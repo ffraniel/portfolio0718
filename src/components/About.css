@@ -1,0 +1,30 @@
+.introduction{
+    font-family:'Oxygen';
+}
+
+.fullImage{
+    position:relative;
+}
+
+.fullImage img{
+    object-fit: cover;
+    width:100%;
+}
+
+.introduction article{
+    padding:20px 3% 0 3%;
+    text-align: center;
+}
+
+.introduction article p{
+    text-align: center;
+}
+
+.introduction article h3{
+    text-align: center;
+    color:rgb(65, 63, 63);
+}
+
+.introduction article p span{
+    color:#FF3B4E;
+}
