@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import './index.css';
 
-import Header from '../components/header';
+import Header from '../components/Header';
 import Jumbotron from '../components/Jumbotron';
+import About from '../components/About';
 
 
 const Layout = ({ children, data }) => (
@@ -18,6 +19,7 @@ const Layout = ({ children, data }) => (
     />
     <Header />
     <Jumbotron />
+    <About />
 
     {children}
 
