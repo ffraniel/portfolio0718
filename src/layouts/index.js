@@ -6,7 +6,7 @@ import './index.css';
 import Header from '../components/Header';
 import Jumbotron from '../components/Jumbotron';
 import About from '../components/About';
-
+import PortfolioBlock from '../components/PortfolioBlock';
 
 const Layout = ({ children, data }) => (
   <div>
@@ -20,6 +20,7 @@ const Layout = ({ children, data }) => (
     <Header />
     <Jumbotron />
     <About />
+    <PortfolioBlock />
 
     {children}
 

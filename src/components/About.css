@@ -28,3 +28,13 @@
 .introduction article p span{
     color:#FF3B4E;
 }
+
+.downArrow{
+    color:red;
+    text-align: center;
+    font-size:50px;
+    font-weight: 600;
+}
+.downArrow:hover{
+    color:white;
+}
