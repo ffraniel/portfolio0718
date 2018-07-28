@@ -1,21 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link';
+import './index.css';
 
 import Header from '../components/header';
-import './index.css';
+import Jumbotron from '../components/Jumbotron';
+
 
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Fran the Dev, Javascript and Web Developer' },
+        { name:'keywords', content: 'Javascript,Francis,Whitehead,Web,Developer,Code,Websites' }
       ]}
     />
     <Header />
+    <Jumbotron />
+
+    {children}
 
   </div>
 )
