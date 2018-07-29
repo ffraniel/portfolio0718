@@ -1,0 +1,8 @@
+.center-link {
+    text-align: center;
+    color:purple;
+}
+
+.center-link:hover a {
+    color:lightcoral;
+}
