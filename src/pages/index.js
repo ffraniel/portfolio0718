@@ -1,12 +1,15 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Jumbotron from '../components/Jumbotron';
+import About from '../components/About';
+import PortfolioBlock from '../components/PortfolioBlock';
+import Contact from '../components/Contact';
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Jumbotron />
+    <About />
+    <PortfolioBlock />
+    <Contact />
   </div>
 )
 

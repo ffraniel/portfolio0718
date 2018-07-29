@@ -4,10 +4,6 @@ import Helmet from 'react-helmet'
 import './index.css';
 
 import Header from '../components/Header';
-import Jumbotron from '../components/Jumbotron';
-import About from '../components/About';
-import PortfolioBlock from '../components/PortfolioBlock';
-import Contact from '../components/Contact';
 
 const Layout = ({ children, data }) => (
   <div>
@@ -19,13 +15,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header />
-    <Jumbotron />
-    <About />
-    <PortfolioBlock />
-    <Contact />
-
-    {children}
-
+    {children()}
   </div>
 )
 
