@@ -1,13 +1,35 @@
-import React from 'react'
+import React from 'react';
+import Link from 'gatsby-link';
 import './PortfolioBlock.css';
+import eurovisionImg from './component-images/eurovisionFrontPage.jpg';
+import beRedditImg from './component-images/beItFull.jpg';
+import feRedditImg from './component-images/saidditFull.jpg';
+import sanssouciImg from './component-images/sanssouciFull.jpg';
+import wikiImg from './component-images/wikiSearchFull.jpg';
+import worldcupImg from './component-images/EIWCFull.jpg';
+
+const PortfolioItem = (props) => (
+    <div className="folio-item">
+    <Link to="/">
+        <figcaption>Eurovision Lyrics Quiz using React.</figcaption>
+        <img src={eurovisionImg} alt="Front page of Eurovision 2018 quiz app." />
+    </Link>
+</div>
+);
 
 const PortfolioBlock = () => (
     <div className="portfolio-block">
             <h3>Portfolio</h3>
 
             <section className="folio-grid">
+                <PortfolioItem />
+                <PortfolioItem />
+                <PortfolioItem />
+                <PortfolioItem />
+                <PortfolioItem />
+                <PortfolioItem />
             
-                <div className="folio-item">
+                {/* <div className="folio-item">
                     <a href="portfolio/portfolioEurovisionLyrics.html">
                         <figcaption>Eurovision Lyrics Quiz using React.</figcaption>
                         <img src="images/eurovisionFrontPage.jpg" alt="Front page of Eurovision 2018 quiz app." />
@@ -48,7 +70,7 @@ const PortfolioBlock = () => (
                         <figcaption>Are England are still in the World Cup, using Google Firebase Serverless Functions.</figcaption>
                         <img src="images/EIWCFull.jpg" alt="Front page of site showing if England are still in the WC2018" />
                     </a>
-                </div>
+                </div> */}
             </section>
     </div>
 )
