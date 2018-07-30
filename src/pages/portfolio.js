@@ -24,4 +24,10 @@ const Portfolio = () => (
     </div>
 )
 
+// const query = graphyql`
+//     query portfolioExample {
+
+//     }
+// `
+
 export default Portfolio;

@@ -1,15 +1,10 @@
 import React from 'react'
 import './About.css';
-// import fransPic from '../component-images/upworkImage.jpg';
-
-// console.log(fransPic)
-//   // Import result is the URL of your image
-// {console.log(fransPic)}
-//   return <img src={logo} alt="Logo" />;
-
+import fransPic from './component-images/upworkImage.jpg';
 
 const About = () => (
     <section className="introduction" >
+
 
         <article>
             <p>I am a full-stack Javascript developer (ES6) using <span>Node.js</span>,
@@ -24,9 +19,9 @@ const About = () => (
             <h3>Fantastic user experiences</h3>
             <p>I love to develop beautiful responsive websites and use exciting technology but the bottom line is how effective it is at satisfying the users. I can help keep that focus in mind at all times.</p>
         </article>
-        {/* <div className="fullImage">
+        <div className="fullImage">
             <img src={fransPic} alt="Fran Whitehead smiling at the camera slightly goofily." />>
-        </div> */}
+        </div>
         <p className="downArrow">&#8681;</p>
     </section>
 )
