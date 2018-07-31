@@ -24,7 +24,6 @@
     color:rgb(53, 50, 50);
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
-
 }
 
 .underline{
@@ -32,6 +31,28 @@
     display:block;
     width:33.3%;
     margin:10px auto;
+}
+
+.logos-array {
+margin:30px auto;
+max-width:400px;
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.logos-array img{
+    max-height:40px;
+    max-width:40px;
+    margin:5px;
+}
+
+.logos-array .double-width{
+    max-width:80px;
+}
+
+.logos-array .triple-width{
+    max-width:120px;
 }
 
 @media(min-width:480px){

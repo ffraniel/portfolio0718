@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css';
-import fransPic from './component-images/upworkImage.jpg';
+import fransPic from '../images/component-images/upworkImage.jpg';
 
 const About = () => (
     <section className="introduction" >
