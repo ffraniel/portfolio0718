@@ -49,7 +49,8 @@ export default {
                 "Then i put together the React app itself. On initial load it comes to an intro page. When you click to start the game i switch out the intro page for the 'GamePlay.js' component. This component starts on question and when an answer is given it flips over to answer mode.",
                 "The position in the quiz and the score are kept on display in the GamePlay component. When all the rounds are complete it shows your score and asks if you want to play again, and the button just resets the game state to zero and shows the intro page."
             ],
-            link: "https://eurovision-lyrics-2018.firebaseapp.com/"
+            link: "https://eurovision-lyrics-2018.firebaseapp.com/",
+            portfolioLink: "/eurovision-lyrics-quiz-react"
         },
         {
             title: "Saiddit BE: Back End for Reddit Clone",
@@ -60,7 +61,8 @@ export default {
                 "I used Node.js with Express.js and MongoDB. This is part of a larger full-stack project wherein I used React.js for the front-end.",
                 "All the endpoints are fully tested using Mocha and Chai. The database is hosted on mLab.com. The project is currently hosted on Heroku."
             ],
-            link: "https://vast-tundra-92428.herokuapp.com/"
+            link: "https://vast-tundra-92428.herokuapp.com/",
+            portfolioLink: "/saiddit-BE"
         },
         {
             title: "Saiddit: A React Reddit clone Front End",
@@ -72,7 +74,8 @@ export default {
                 "I used the fonts ‘Varela’ and ‘Playfair Display’, both from Google Fonts. ‘Varela’ is an elegant sans-serif design, great for extended reading without being boring or ugly, while ‘Playfair Display’, for headings and titles, is a little bit more ornate.",
                 "The page has a responsive design allowing for comfortable viewing on mobile, tablet or desktop."
             ], 
-            link: "https://sleepy-atoll-80436.herokuapp.com/"
+            link: "https://sleepy-atoll-80436.herokuapp.com/",
+            portfolioLink: "/saiddit-FE"
         },
         {
             title: "Sanssouci Band website",
@@ -85,7 +88,8 @@ export default {
                 "In order to speed up performance I had to remove a background colour effect where the colour would ease from pink slowly into a purple hue and then back again. The effect was subtle and looked great but the huge animation made the page run very slowly, particularly on mobile phones.",
                 "Finally I used Gulp to minimise the CSS and JS respectively so that the website can serve an optimised page."
             ], 
-            link: "http://sanssouci.uk/"
+            link: "http://sanssouci.uk/",
+            portfolioLink: "/saiddit-FE-react"
         },
         {
             title: "Wikipedia Live Search",
@@ -95,7 +99,8 @@ export default {
             text: ["A quick project that allows the user to search Wikipedia for topics of their choosing.",
                 "A simple implementation of many of the essential ingredients of a React practice project with inputs and data fetching.",
             ], 
-            link: "https://wikifetch.firebaseapp.com/"
+            link: "https://wikifetch.firebaseapp.com/",
+            portfolioLink: "/wiki-fetch"
         },
         {
             title: "Are England Still In the World Cup Russia 2018?",
@@ -108,7 +113,8 @@ export default {
                 "Next we see what happens when i send a query value that is an invalid type (in this case any query that isn't a boolean).",
                 "I always found these websites with one purpose, you know, to answer the question that is in their URL and title. I considered doing one for every team still in the World Cup but some of those flags would be pretty difficult to do in CSS (i'm looking at you Croatia and Brazil)."
             ], 
-            link: "https://areenglandstillintheworldcup.firebaseapp.com/"
+            link: "https://areenglandstillintheworldcup.firebaseapp.com/",
+            portfolioLink: "/world-cup-serverless"
         }
     ]
 };
