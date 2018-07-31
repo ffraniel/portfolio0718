@@ -19,7 +19,7 @@ const PortfolioBlock = () => (
             <section className="folio-grid">
                 {projects.map((project)=>{
                     return(
-                        <PortfolioItem image={project.image} popup={project.popup} key={project.title} />
+                        <PortfolioItem image={project.mainImage} popup={project.popup} key={project.title} />
                     )
                 })}
             </section>
