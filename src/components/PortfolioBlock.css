@@ -4,7 +4,7 @@
 }
 
 .section-heading{
-    font-family: 'nunito';
+    font-family: 'poppins';
     text-align:center;
     color:rgb(65, 63, 63);
 }
@@ -21,6 +21,7 @@
     width:100%;
 }
 .folio-item figcaption{
+    font-family: 'poppins';
     text-align:center;
     position:absolute;
 	background: rgba(127, 184, 173, 0.904);

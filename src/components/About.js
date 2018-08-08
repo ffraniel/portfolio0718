@@ -12,7 +12,7 @@ const About = () => (
             <p>Whilst I love to develop beautiful responsive websites and use exciting technology the bottom line is how effective it is at satisfying the users. I can help keep that focus in mind at all times.</p>
         </article>
         <div className="fullImage">
-            <img src={fransPic} alt="Fran Whitehead smiling at the camera slightly goofily." />>
+            <img src={fransPic} alt="Fran Whitehead smiling at the camera slightly goofily." />
         </div>
         <p className="downArrow">&#8681;</p>
     </section>

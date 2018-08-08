@@ -8,9 +8,26 @@ import PortfolioBlock from '../components/PortfolioBlock';
 const example = true;
 
 const Portfolio = () => (
-<div className="portfolio-page">  
+<div className="portfolio-block">
+    {example &&
+    <div>
+    <main className="portfolio-item">
+        <Titles />
+        <ProjectInformation />
+    </main>
+
+    <p className="downArrow">&#8681;</p>
+    </div>
+    }
+    
     <PortfolioBlock />
-</div>
+    </div>
 )
+
+// const query = graphyql`
+//     query portfolioExample {
+
+//     }
+// `
 
 export default Portfolio;
