@@ -15,7 +15,7 @@ const PortfolioItem = (props) => (
 
 const PortfolioBlock = () => (
     <div className="portfolio-block">
-            <h3>Portfolio</h3>
+            <h3 className="section-heading">Portfolio</h3>
             <section className="folio-grid">
                 {projects.map((project)=>{
                     return(

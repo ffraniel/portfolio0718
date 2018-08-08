@@ -1,5 +1,5 @@
 .introduction{
-    font-family:'Oxygen';
+    font-family:'nunito';
 }
 
 .fullImage{
@@ -23,6 +23,7 @@
 .introduction article h3{
     text-align: center;
     color:rgb(65, 63, 63);
+    font-family:'poppins';
 }
 
 .introduction article p span{

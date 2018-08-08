@@ -15,14 +15,13 @@ header nav{
     left: 0px;
     right:0px;
     z-index: 1;
-    font-size:0.8rem;
+    font-size:1rem;
   }
 header nav a{
-    font-family: 'Oxygen', Arial;
-    font-weight: 300;
+    font-family: 'poppins';
     color:rgb(65, 63, 63);
     text-align: center;
-    font-weight:900;
+    font-weight:600;
 }
 header nav a:hover{
     color:rgb(139, 133, 133);

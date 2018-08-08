@@ -12,14 +12,14 @@
     text-align: center;
     padding:120px 0 0 0;
     font-size: 5rem;
-    font-family: 'Oxygen Mono', monospace;
+    font-family: 'poppins', system;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
 }
 
 .title-heading-subtitle{
     text-align:center;
-    font-family: 'Oxygen Mono', monospace;
+    font-family: 'nunito', system;
     font-size: 2.3rem;
     color:rgb(53, 50, 50);
     -webkit-margin-before: 0em;
@@ -75,7 +75,6 @@ justify-content: center;
     }
     .title-heading-subtitle{
         text-align:center;
-        font-family: 'Oxygen Mono', monospace;
         font-size: 2.5rem;
     }
 }
