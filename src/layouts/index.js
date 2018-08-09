@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import './index.css';
 
 import Header from '../components/Header';
+import PortfolioBlock from '../components/PortfolioBlock';
+import Contact from '../components/Contact';
 
 const Layout = ({ children, data }) => (
   <div>
@@ -16,6 +18,8 @@ const Layout = ({ children, data }) => (
     />
     <Header />
     {children()}
+    <PortfolioBlock />
+    <Contact />
   </div>
 )
 
@@ -26,10 +30,25 @@ Layout.propTypes = {
 export default Layout
 
 export const query = graphql`
-  query SiteTitleQuery {
+  query PageDataAndPortfolio {
     site {
       siteMetadata {
         title
+      }
+    }
+    allMarkdownRemark {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            path
+            title
+            popup
+            link
+          }
+          excerpt
+        }
       }
     }
   }
