@@ -1,0 +1,22 @@
+.portfolio-project-item {
+    padding-top:75px;
+    background:rgb(148, 226, 124);
+    min-height:100vh;
+}
+
+.project-title{
+    padding:10px;
+}
+
+.project-subtitle{
+    padding:5px;
+}
+
+.project-details {
+    padding:10px;
+    text-align: center;
+}
+
+.project-link {
+    text-align: center;
+}

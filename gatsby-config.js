@@ -11,6 +11,14 @@ module.exports = {
           'nunito', 'poppins'
         ]
       }
-    }
+    },
+    {
+      resolve:'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/projects`,
+        name: 'projects',
+      }
+    },
+    'gatsby-transformer-remark'
   ],
 }
