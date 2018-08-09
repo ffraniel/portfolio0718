@@ -15,7 +15,7 @@ header nav{
     left: 0px;
     right:0px;
     z-index: 1;
-    font-size:1rem;
+    font-size:0.9rem;
   }
 header nav a{
     font-family: 'poppins';
@@ -25,6 +25,10 @@ header nav a{
 }
 header nav a:hover{
     color:rgb(139, 133, 133);
+}
+
+.home-nav {
+    font-size:0.6rem;
 }
 
 @media(min-width:480px){
@@ -42,19 +46,52 @@ header nav a:hover{
 @media(min-width:650px){
     /* header and nav */
     header nav{
-        grid-template-columns:12% 12% 12% 12% auto;
+        grid-template-columns:repeat(4, 100px) auto;
+    }
+    .home-nav{
+        font-size:0.5rem;
     }
 }
 
 @media(min-width:880px){
     /* header and nav */
     header nav{
-        grid-template-columns:8% 8% 8% 8% auto;
+        grid-template-columns:repeat(4, 130px) auto;
+        height:60px;
+        line-height: 60px;
+    }
+    .home-nav{
+        font-size:0.8rem;
+    }
+}
+
+@media(min-width:730px){
+    .home-nav{
+        font-size:0.6rem;
+    }
+}
+
+@media(min-width:880px){
+    /* header and nav */
+    header nav{
+        grid-template-columns:9% 9% 9% 9% auto;
         height:60px;
         line-height: 60px;
     }
     header nav a {
-        font-size:0.9rem;
+        font-size:0.4rem;
+    }
+    .home-nav{
+        font-size:0.45rem;
+    }
+}
+
+@media(min-width:970px){
+    header nav a {
+        font-size:0.8rem;
+    }
+    .home-nav{
+        font-size:0.555rem;
     }
 }
 

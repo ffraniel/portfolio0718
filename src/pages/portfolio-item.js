@@ -1,27 +1,20 @@
 import React from 'react'
-import Link from 'gatsby-link';
-import './portfolio.css';
+import Link from 'gatsby-link'
+import './portfolio-item.css'
+import Titles from '../components/Titles.js'
+import ProjectInformation from '../components/ProjectInformation'
 
-import Titles from '../components/Titles.js';
-import ProjectInformation from '../components/ProjectInformation';
-import PortfolioBlock from '../components/PortfolioBlock';
-const example = true;
+import PortfolioBlock from '../components/PortfolioBlock'
 
-const Portfolio = () => (
-<div className="portfolio-block">
-    {example &&
-    <div>
-    <main className="portfolio-item">
-        <Titles />
-        <ProjectInformation />
+const PortfolioItem = () => (
+  <div className="portfolio-item">
+    <main>
+      <Titles />
+      <ProjectInformation />
     </main>
-
     <p className="downArrow">&#8681;</p>
-    </div>
-    }
-    
     <PortfolioBlock />
-    </div>
+  </div>
 )
 
 // const query = graphyql`
@@ -30,4 +23,4 @@ const Portfolio = () => (
 //     }
 // `
 
-export default Portfolio;
+export default PortfolioItem
