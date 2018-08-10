@@ -1,6 +1,6 @@
 .portfolio-project-item {
     padding-top:75px;
-    background:rgb(148, 226, 124);
+    background:rgb(250, 246, 246);
     min-height:100vh;
 }
 
@@ -16,8 +16,13 @@
 
 .project-details {
     padding:10px;
-    text-align: center;
     font-family: 'nunito';
+}
+
+.project-details p {
+    font-size:0.9rem;
+    color:black;
+    padding: 5px 3%;
 }
 
 .project-link {

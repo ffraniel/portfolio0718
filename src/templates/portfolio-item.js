@@ -9,7 +9,7 @@ export default function Template({ data }) {
             <h3 className="project-title">{project.frontmatter.title}</h3>
             <h5 className="project-subtitle">{project.frontmatter.blurb}</h5>
             <h5 className="project-link">
-                <a href={project.frontmatter.link} >{project.frontmatter.shortname}</a>
+                <a href={project.frontmatter.link} >Visit {project.frontmatter.shortname}</a>
             </h5>
             <div className="project-details" dangerouslySetInnerHTML={{ __html: project.html }} />
         </div>

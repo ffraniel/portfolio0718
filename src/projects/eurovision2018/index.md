@@ -9,7 +9,7 @@ blurb: 'Guess the nationality of the song from a small given snippet of the lyri
 
 ![Front page of Eurovision app](eurovisionFrontPage.jpg)  
 
-I decided to make this the day before the Eurovision Finals. I spent a great deal of that time trying to find good sources of data about the songs. In order for this to be complete i would need to track down the details for every song; the artist, song title, lyrics and image of the act. I taught myself some rudimentary web scraping techniques, npm installed Cheerio and Require and got to work. It was a fun project working out how to automate collecting all the data.  
+I decided to make this the day before the Eurovision Finals. I spent a great deal of that time trying to find good sources of data about the songs. In order for this to be complete i would need to track down the details for every song; the artist, song title, lyrics and image of the act. I taught myself some rudimentary web scraping techniques, NPM installed Cheerio and Require and got to work. It was a fun project working out how to automate collecting all the data.  
 
 ![Questions dialogue of Eurovision app](eurovisionQuestion.jpg)  
 
