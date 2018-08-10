@@ -9,7 +9,6 @@ const example = true;
 
 const Portfolio = () => (
 <div className="portfolio-page">  
-    <PortfolioBlock />
 </div>
 )
 
