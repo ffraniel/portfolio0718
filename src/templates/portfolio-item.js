@@ -9,7 +9,7 @@ export default function Template({ data }) {
             <h3 className="project-title">{project.frontmatter.title}</h3>
             <h5 className="project-subtitle">{project.frontmatter.blurb}</h5>
             <h5 className="project-link">
-                <a href={project.frontmatter.link} >See project live</a>
+                <a href={project.frontmatter.link} >{project.frontmatter.shortName}</a>
             </h5>
             <div className="project-details" dangerouslySetInnerHTML={{ __html: project.html }} />
         </div>
@@ -23,6 +23,7 @@ export const projectQuery = graphql`
            frontmatter {
                path
                title
+               shortName
                popup
                link
                blurb
