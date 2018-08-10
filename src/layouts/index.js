@@ -18,7 +18,7 @@ const Layout = ({ children, data }) => (
     />
     <Header />
     {children()}
-    <PortfolioBlock />
+    <PortfolioBlock projects={data.allMarkdownRemark.edges} />
     <Contact />
   </div>
 )
