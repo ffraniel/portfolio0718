@@ -1,7 +1,7 @@
 ---
 path: '/saiddit-FE'
 title: 'Saiddit: A React Reddit clone Front End'
-shortName: 'Saiddit FE'
+shortname: 'Saiddit FE'
 popup: 'Front end of a Reddit Clone using React'
 link: 'https://sleepy-atoll-80436.herokuapp.com/'
 blurb: 'Front end of a Reddit Clone using React'

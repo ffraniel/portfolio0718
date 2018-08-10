@@ -1,7 +1,7 @@
 ---
 path: '/eurovision-2018'
 title: 'Eurovision 2018 Lyrics Quiz built with React'
-shortName: 'Eurovision 2018'
+shortname: 'Eurovision 2018'
 popup: 'Eurovision Lyrics Quiz using React'
 link: 'https://eurovision-lyrics-2018.firebaseapp.com/'
 blurb: 'Guess the nationality of the song from a small given snippet of the lyrics. Built with React.js'

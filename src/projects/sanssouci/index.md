@@ -1,7 +1,7 @@
 ---
 path: '/sanssouci'
 title: 'Sanssouci Band website'
-shortName: 'Sanssouci'
+shortname: 'Sanssouci'
 popup: 'Band website using HTML, CSS and vanilla JS'
 link: 'http://sanssouci.uk/'
 blurb: 'Band website using HTML, CSS, JS, Gulp.'

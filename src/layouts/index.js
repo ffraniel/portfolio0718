@@ -44,8 +44,10 @@ export const query = graphql`
           frontmatter {
             path
             title
+            shortname
             popup
             link
+            blurb
           }
           excerpt
         }

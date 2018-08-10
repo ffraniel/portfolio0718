@@ -1,7 +1,7 @@
 ---
 path: '/world-cup-serverless'
 title: 'Are England Still In the World Cup Russia 2018?'
-shortName: 'World Cup 2018'
+shortname: 'World Cup 2018'
 popup: 'Are England are still in the World Cup, using Google Firebase Serverless Functions'
 link: 'https://areenglandstillintheworldcup.firebaseapp.com/'
 blurb: 'Are England are still in the World Cup, using Google Firebase Serverless Functions'
