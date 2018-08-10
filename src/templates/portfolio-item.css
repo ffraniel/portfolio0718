@@ -6,19 +6,23 @@
 
 .project-title{
     padding:10px;
+    font-family: 'poppins';
 }
 
 .project-subtitle{
     padding:5px;
+    font-family: 'nunito';
 }
 
 .project-details {
     padding:10px;
     text-align: center;
+    font-family: 'nunito';
 }
 
 .project-link {
     text-align: center;
+    font-family:'poppins';
 }
 
 .project-details img {
