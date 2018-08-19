@@ -4,7 +4,7 @@ title: 'Wikipedia Live Search'
 shortname: 'Wikipedia Search'
 popup: 'Search Wikipedia with instant feedback using React'
 link: 'https://wikifetch.firebaseapp.com/'
-blurb: 'App to search Wikipedia using React.'
+blurb: 'App to search Wikipedia using *React.'
 mainimage: './wikiSearchFull.jpg'
 ---
 

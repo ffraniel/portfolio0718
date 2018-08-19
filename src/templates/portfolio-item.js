@@ -1,13 +1,14 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import './portfolio-item.css';
+import Subtitle from '../components/Subtitle.js';
 
 export default function Template({ data }) {
     const project = data.markdownRemark;
     return (
         <div className="portfolio-project-item">
             <h3 className="project-title">{project.frontmatter.title}</h3>
-            <h5 className="project-subtitle">{project.frontmatter.blurb}</h5>
+            <Subtitle blurb={project.frontmatter.blurb} />
             <h5 className="project-link">
                 <a href={project.frontmatter.link} >Visit {project.frontmatter.shortname}</a>
             </h5>

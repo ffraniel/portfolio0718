@@ -4,7 +4,7 @@ title: 'Sanssouci Band website'
 shortname: 'Sanssouci'
 popup: 'Band website using HTML, CSS and vanilla JS'
 link: 'http://sanssouci.uk/'
-blurb: 'Band website using HTML, CSS, JS, Gulp.'
+blurb: 'Band website using *HTML, *CSS, *JS, *Gulp.'
 mainimage: './sanssouciFull.jpg'
 ---
 

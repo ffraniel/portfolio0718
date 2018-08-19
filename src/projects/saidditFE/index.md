@@ -4,7 +4,7 @@ title: 'Saiddit: A React Reddit clone Front End'
 shortname: 'Saiddit FE'
 popup: 'Front end of a Reddit Clone using React'
 link: 'https://sleepy-atoll-80436.herokuapp.com/'
-blurb: 'Front end of a Reddit Clone using React'
+blurb: 'Front end of a Reddit Clone using *React'
 mainimage: './saidditFull.jpg'
 ---
 
