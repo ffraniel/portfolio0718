@@ -5,6 +5,7 @@ shortname: 'World Cup 2018'
 popup: 'Are England are still in the World Cup, using Google Firebase Serverless Functions'
 link: 'https://areenglandstillintheworldcup.firebaseapp.com/'
 blurb: 'Are England are still in the World Cup, using Google Firebase Serverless Functions'
+mainimage: './EIWCFull.jpg'
 ---
 
 ![Front page of 'Are England still in the World Cup Russia 2018?'](EIWCFull.jpg)  

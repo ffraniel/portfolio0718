@@ -48,6 +48,14 @@ export const query = graphql`
             popup
             link
             blurb
+            mainimage {
+              publicURL
+              childImageSharp {
+                sizes(maxWidth: 480 ) {
+                  srcSet
+                }
+              }
+            }
           }
           excerpt
         }

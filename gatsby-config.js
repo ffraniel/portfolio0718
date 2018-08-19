@@ -33,5 +33,13 @@ module.exports = {
       }
     },
     'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    'gatsby-remark-copy-linked-files',
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        maxWidth: 480,
+      },
+    }
   ],
 }

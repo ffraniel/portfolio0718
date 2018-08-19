@@ -5,6 +5,7 @@ shortname: 'Sanssouci'
 popup: 'Band website using HTML, CSS and vanilla JS'
 link: 'http://sanssouci.uk/'
 blurb: 'Band website using HTML, CSS, JS, Gulp.'
+mainimage: './sanssouciFull.jpg'
 ---
 
 ![Sanssouci band website front page](sanssouciFull.jpg)  

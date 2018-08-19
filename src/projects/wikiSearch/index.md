@@ -5,6 +5,7 @@ shortname: 'Wikipedia Search'
 popup: 'Search Wikipedia with instant feedback using React'
 link: 'https://wikifetch.firebaseapp.com/'
 blurb: 'App to search Wikipedia using React.'
+mainimage: './wikiSearchFull.jpg'
 ---
 
 ![Front page of Wiki Search showing an empty input field](wikiSearchFull.jpg)  
