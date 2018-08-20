@@ -40,6 +40,12 @@ module.exports = {
       options: {
         maxWidth: 480,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 250
+      }
     }
   ],
 }
