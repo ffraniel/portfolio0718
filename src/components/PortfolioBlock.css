@@ -31,22 +31,21 @@
 .folio-item figcaption{
     font-family: 'poppins';
     text-align:center;
+    margin:auto;
     position:absolute;
-	background: rgba(127, 184, 173, 0.904);
+	background: rgba(127, 161, 184, 0.829);
 	color:white;
-    text-align: center;
+    padding-top:100px;
 	opacity:0;
-	bottom:-400px;
 	width:100%;
-	-webkit-transition: all 0.8s ease;
-	-moz-transition: all 0.8s ease;
-    -o-transition: all 0.8s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
     z-index:1;
 }
 
 .folio-item:hover figcaption{
     opacity:1;
-    bottom:0;
     height:100%;
 } 
 
