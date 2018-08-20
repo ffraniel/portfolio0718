@@ -7,24 +7,54 @@ import Header from '../components/Header';
 import PortfolioBlock from '../components/PortfolioBlock';
 import Contact from '../components/Contact';
 
-const Layout = ({ children, data }) => (
-  <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Fran the Dev, Javascript and Web Developer' },
-        { name:'keywords', content: 'Javascript,Francis,Whitehead,Web,Developer,Code,Websites' }
-      ]}
-    />
-    <Header />
-    {children()}
-    <PortfolioBlock projects={data.allMarkdownRemark.edges} />
-    <Contact />
-  </div>
-)
+class Layout extends React.Component {
+  constructor(props){
+    super(props);
+    this.scrollTest = this.scrollTest.bind(this);
+  }
+  componentDidMount(){
+    document.addEventListener('scroll', this.scrollTest)
+  }
+
+  componentWillUnmount(){
+    document.removeEventListener('scroll', this.scrollTest)
+  }
+
+  scrollTest(){
+    var yOffset = window.pageYOffset;
+    var body = document.body;
+    var html = document.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+    var heightLessInnerHeight = height - window.innerHeight;
+    var percentage = yOffset / heightLessInnerHeight;
+    document.querySelector('.fade-bg').style.opacity = percentage;
+  }
+
+  render(){
+    const data = this.props.data;
+    const children = this.props.children;
+    return (
+      <div>
+        <Helmet
+          title={data.site.siteMetadata.title}
+          meta={[
+            { name: 'description', content: 'Fran the Dev, Javascript and Web Developer' },
+            { name:'keywords', content: 'Javascript,Francis,Whitehead,Web,Developer,Code,Websites' }
+          ]}
+        />
+        <Header />
+        {children()}
+        <div className="fade-bg">
+        </div>
+        <PortfolioBlock projects={data.allMarkdownRemark.edges} />
+        <Contact />
+      </div>
+    )
+  }
+}
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.func
 }
 
 export default Layout
