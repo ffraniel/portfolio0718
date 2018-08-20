@@ -10,7 +10,7 @@ import Contact from '../components/Contact';
 class Layout extends React.Component {
   constructor(props){
     super(props);
-    this.scrollTest = this.scrollTest.bind(this);
+    this.scrollBGChange = this.scrollBGChange.bind(this);
   }
   componentDidMount(){
     document.addEventListener('scroll', this.scrollBGChange)
@@ -44,8 +44,7 @@ class Layout extends React.Component {
         />
         <Header />
         {children()}
-        <div className="fade-bg">
-        </div>
+        <div className="fade-bg" />
         <PortfolioBlock projects={data.allMarkdownRemark.edges} />
         <Contact />
       </div>
