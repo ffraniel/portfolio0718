@@ -13,14 +13,14 @@ class Layout extends React.Component {
     this.scrollTest = this.scrollTest.bind(this);
   }
   componentDidMount(){
-    document.addEventListener('scroll', this.scrollTest)
+    document.addEventListener('scroll', this.scrollBGChange)
   }
 
   componentWillUnmount(){
-    document.removeEventListener('scroll', this.scrollTest)
+    document.removeEventListener('scroll', this.scrollBGChange)
   }
 
-  scrollTest(){
+  scrollBGChange(){
     var yOffset = window.pageYOffset;
     var body = document.body;
     var html = document.documentElement;
