@@ -36,9 +36,6 @@
     font-size:50px;
     font-weight: 600;
 }
-.downArrow:hover{
-    color:pink;
-}
 
 @media(min-width:480px){
     .fullImage{
