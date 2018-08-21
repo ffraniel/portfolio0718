@@ -13,11 +13,20 @@ class Header extends React.Component {
   }
 
   componentDidMount(){
-    
+    this.getInitialLocation();
   }
 
-  componentWillUnmount(){
-    
+  getInitialLocation(){
+    let locationMinusSlash = window.location.href[-1] === '/' ? window.location.href.slice(-1) : window.location.href;
+    let portfolioCheck = locationMinusSlash.slice(-9) === 'portfolio';
+    portfolioCheck ? 
+      document.querySelector('.portfolio-nav').classList.add('underlineNav') :
+      document.querySelector('.home-nav').classList.add('underlineNav');
+      if(portfolioCheck) {
+        this.setState({
+          currentLocation: "portfolio-nav"
+        })
+      } 
   }
 
   changeWindowLocation(newLocation){

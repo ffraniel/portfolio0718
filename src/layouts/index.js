@@ -42,7 +42,7 @@ class Layout extends React.Component {
             { name:'keywords', content: 'Javascript,Francis,Whitehead,Web,Developer,Code,Websites' }
           ]}
         />
-        <Header />
+        <Header currentURL={this.props.match.path} />
         {children()}
         <div className="fade-bg" />
         <PortfolioBlock projects={data.allMarkdownRemark.edges} />

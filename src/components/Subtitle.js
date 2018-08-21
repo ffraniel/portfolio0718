@@ -5,10 +5,10 @@ const Subtitle = (props) => {
     return(
         <div className="project-subtitle">
             {   
-                props.blurb.split(" ").map((word)=>{
+                props.blurb.split(" ").map((word, key)=>{
                     if(word[0]=== "*") {
                         return (
-                            <SpanWord word={" " + word.slice(1)} />
+                            <SpanWord word={" " + word.slice(1)} key={key} />
                         )
                     }
                     return " " + word;
