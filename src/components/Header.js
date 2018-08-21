@@ -10,6 +10,7 @@ class Header extends React.Component {
     }    
     this.changeWindowLocation = this.changeWindowLocation.bind(this);
     this.updateHeaderLocationStyle = this.updateHeaderLocationStyle.bind(this);
+    this.getInitialLocation = this.getInitialLocation.bind(this);
   }
 
   componentDidMount(){

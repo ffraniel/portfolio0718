@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import './index.css';
+import favicon from '../images/favicons/favicon-32x32.png';
 
 import Header from '../components/Header';
 import PortfolioBlock from '../components/PortfolioBlock';
@@ -41,6 +42,9 @@ class Layout extends React.Component {
             { name: 'description', content: 'Fran the Dev, Javascript and Web Developer' },
             { name:'keywords', content: 'Javascript,Francis,Whitehead,Web,Developer,Code,Websites' }
           ]}
+          link={[
+            { rel: 'shortcut icon', type: 'image/png', href: favicon }
+        ]}
         />
         <Header currentURL={this.props.match.path} />
         {children()}
