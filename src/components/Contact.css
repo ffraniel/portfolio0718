@@ -1,13 +1,15 @@
 .contact {
-    padding:0px 4% 50px 4%;
+    padding:10px 4% 120px 4%;
     font-family: 'nunito';
     text-align:center;
+    color:rgb(231, 226, 226);
 }
 
 .contact h3{
     text-align:center;
-    padding:20px 0;
+    padding:5px 0;
     color:rgb(31, 29, 29);
+    color:rgb(219, 216, 216);
     font-family: 'poppins';
 }
 .contact p{
@@ -19,13 +21,24 @@
     border-radius:10px;
     transition: all 0.1s;
     color:black;
+    color:rgb(231, 226, 226);
     font-family: 'poppins';
+    background:rgba(0, 0, 128, 0.534);
+    font-weight:700;
+    font-size:0.9rem;
 }
 .contact .contact-linkedin:hover{
-    box-shadow: 2px 3px 1px 1px grey;
-    color:rgb(65, 63, 63);
+    box-shadow: 2px 1px 1px 1px rgba(128, 128, 128, 0.466);
+    color:rgb(145, 145, 145);
 }
 
 .contact .contact-linkedin:active{
     box-shadow: 0.2px 0.2px grey;
+}
+
+.downArrow{
+    color:#FF3B4E;
+    text-align: center;
+    font-size:50px;
+    font-weight: 600;
 }

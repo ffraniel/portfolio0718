@@ -1,6 +1,7 @@
 /* portfolio grid */
 .portfolio-block {
     padding:20px 0 5px 0;
+    background:rgba(127, 214, 141, 0.021);
 }
 
 .section-heading{

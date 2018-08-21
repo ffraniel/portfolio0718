@@ -34,7 +34,7 @@ class Layout extends React.Component {
     const data = this.props.data;
     const children = this.props.children;
     return (
-      <div>
+      <div className="layout">
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
