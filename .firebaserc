@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "franwdev",
+    "staging": "franwebdev-staging"
+  }
+}
