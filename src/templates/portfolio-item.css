@@ -1,12 +1,14 @@
 .portfolio-project-item {
     padding-top:75px;
     background:white;
+    background-image: linear-gradient(to right bottom, #f9faff, #eceff8, #dfe4f2, #d1d9eb, #c3cee5);
     min-height:100vh;
 }
 
 .project-title{
     padding:10px;
     font-family: 'poppins';
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-details {
@@ -16,16 +18,40 @@
 
 .project-details p {
     font-size:0.9rem;
-    color:black;
-    padding: 5px 3%;
+    color:rgb(46, 45, 45);
+    padding: 20px 1%;
+    margin:auto;
 }
 
 .project-link {
     text-align: center;
     font-family:'poppins';
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-details img {
     width:100%;
     max-width: 480px;
+}
+
+@media(min-width:480px){
+    .project-details p {
+        padding: 20px 3%;
+        width:100%;
+        margin:auto;
+    }
+}
+
+@media(min-width:650px){
+    .project-details p {
+        padding: 20px 5%;
+        width:100%;
+    }
+}
+
+@media(min-width:880px){
+    .project-details p {
+        padding: 20px 5%;
+        width:90%;
+    }
 }

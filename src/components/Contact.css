@@ -11,17 +11,23 @@
     color:rgb(31, 29, 29);
     color:rgb(219, 216, 216);
     font-family: 'poppins';
+    -webkit-text-shadow: 5px 10px 15px rgba(0,0,0,0.4);
+    -moz-text-shadow: 5px 10px 15px rgba(0,0,0,0.4);
+    text-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
 }
 .contact p{
     text-align:center;
+    color:rgb(199, 199, 199);
+
 }
+
 .contact .contact-linkedin{
     padding:10px;
     margin:10px;
     border-radius:10px;
     transition: all 0.1s;
     color:black;
-    color:rgb(231, 226, 226);
+    color:rgb(184, 182, 182);
     font-family: 'poppins';
     background:rgba(0, 0, 128, 0.534);
     font-weight:700;
@@ -36,7 +42,7 @@
     box-shadow: 0.2px 0.2px grey;
 }
 
-.downArrow{
+.contact .downArrow{
     color:#FF3B4E;
     text-align: center;
     font-size:50px;

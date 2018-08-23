@@ -12,18 +12,22 @@
 }
 
 .introduction article{
-    padding:20px 3% 0 3%;
+    padding:5px 3% 0 3%;
     text-align: center;
 }
 
 .introduction article p{
     text-align: center;
+    width:80%;
+    margin:auto;
+    padding-bottom:20px;
 }
 
 .introduction article h3{
     text-align: center;
     color:rgb(65, 63, 63);
     font-family:'poppins';
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .introduction article p span{
@@ -43,5 +47,11 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media(max-width:650px){
+    .introduction article p{
+        width:96%;
     }
 }
