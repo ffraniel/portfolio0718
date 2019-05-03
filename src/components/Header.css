@@ -24,6 +24,7 @@ header nav{
 header nav a{
     font-family: 'poppins';
     /* color:rgb(80, 77, 102); */
+    letter-spacing: 1px;
     color:rgba(226, 226, 226, 0.986);
     text-align: center;
     font-weight:700;
