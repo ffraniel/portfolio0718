@@ -49,7 +49,7 @@ class Layout extends React.Component {
         <Header currentURL={this.props.match.path} />
         {children()}
         <div className="fade-bg" />
-        <PortfolioBlock projects={data.allMarkdownRemark.edges} />
+        <PortfolioBlock projects={data.allMarkdownRemark.edges.reverse()} />
         <Contact />
       </div>
     )
